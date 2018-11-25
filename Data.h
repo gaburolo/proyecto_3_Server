@@ -6,6 +6,7 @@
 #define TECMFS_DATABASE_H
 
 
+
 #include <iostream>
 #include <fstream>
 #include <SFML/Network/Packet.hpp>
@@ -23,6 +24,7 @@ public:
     static LinkedList<std::string> splitString(std::string string, char *splitCharacter);
 
     static LinkedList<std::string> getVideoData(std::string name);
+
 
     static std::string getPart(int disk);
 

@@ -2,6 +2,7 @@
 // Created by oldboy on 26/11/18.
 //
 
+
 #include "Singleton.h"
 
 Singleton* Singleton::instance = nullptr;
